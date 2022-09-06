@@ -5,6 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>spring-program-model</module>
+        <module>java-beans-demo</module>
+        <module>spring-di-demo</module>
     </modules>
 
     <properties>
@@ -30,19 +32,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
 
 
 </project>
